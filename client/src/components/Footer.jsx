@@ -4,7 +4,6 @@ const Footer = () => {
   return (
     <footer className="bg-green-800 text-green-100 py-10">
       <div className="container mx-auto px-6 flex flex-row md:flex-row justify-between items-start md:items-start flex-wrap md:flex-nowrap">
-        {/* Loqo və Qısa Məlumat */}
         <div className="flex gap-5 mb-6 md:mb-0 text-center md:text-left">
           <Link to="/">
             <img src="/src/assets/greentechno.svg" alt="GreenTech" className="h-12 w-30 md:h-28 mx-auto md:mx-0" />
@@ -40,7 +39,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright */}
       <div className="text-center text-sm mt-6 opacity-75">
         © {new Date().getFullYear()} GreenTech. Bütün hüquqlar qorunur.
       </div>
