@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen flex flex-col items-center justify-center text-center bg-green-100 text-green-900">
+    <section className="relative w-full h-screen flex flex-col items-center justify-center text-center bg-gradient-to-br from-green-50 via-green-100 to-green-200 text-green-900">
       <div className="relative z-10 px-6 max-w-3xl">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight">
           Daha Yaşıl Gələcək üçün Texnologiya
@@ -10,9 +10,9 @@ const Hero = () => {
         <p className="mt-4 text-lg md:text-xl opacity-90">
           GreenTech ekoloji startaplar və innovativ texnologiyalar üçün platformadır. Biz birlikdə dünyanı daha yaşıl edə bilərik!
         </p>
-        
+
         {/* CTA Buttons */}
-        <div className="mt-6 flex flex-col md:flex-row items-center gap-4">
+        <div className="mt-6 flex flex-col md:flex-row items-center justify-center gap-4">
           <Link to="/startups" className="bg-green-600 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-lg hover:bg-green-700 transition">
             Startapını Yarat
           </Link>
