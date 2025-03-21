@@ -88,13 +88,11 @@ const Header = () => {
               +994 12 345 67 90
             </a>
             <Link
-              to="/register"
               className="bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700 transition"
             >
               Qeydiyyat
             </Link>
             <Link
-              to="/login"
               className="border border-green-600 text-green-600 px-5 py-2 rounded-lg hover:bg-green-600 hover:text-white transition"
             >
               Daxil ol
