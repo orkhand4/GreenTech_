@@ -8,15 +8,22 @@ const Hero = () => {
           Daha Yaşıl Gələcək üçün Texnologiya
         </h1>
         <p className="mt-4 text-lg md:text-xl opacity-90">
-          GreenTech ekoloji startaplar və innovativ texnologiyalar üçün platformadır. Biz birlikdə dünyanı daha yaşıl edə bilərik!
+          GreenTech ekoloji startaplar və innovativ texnologiyalar üçün
+          platformadır. Biz birlikdə dünyanı daha yaşıl edə bilərik!
         </p>
 
         {/* CTA Buttons */}
         <div className="mt-6 flex flex-col md:flex-row items-center justify-center gap-4">
-          <Link to="/startups" className="bg-green-600 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-lg hover:bg-green-700 transition">
+          <Link
+            to="/startups"
+            className="bg-green-600 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-lg hover:bg-green-700 transition"
+          >
             Startaplar
           </Link>
-          <Link to="/learn-more" className="bg-transparent border-2 border-green-600 text-green-600 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-green-600 hover:text-white transition">
+          <Link
+            to="/learn-more"
+            className="bg-transparent border-2 border-green-600 text-green-600 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-green-600 hover:text-white transition"
+          >
             Daha Çox Öyrən
           </Link>
         </div>
