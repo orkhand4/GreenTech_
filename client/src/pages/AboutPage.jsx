@@ -7,7 +7,7 @@ const About = () => {
     <div>
       <Header />
       <section className="mt-25 relative bg-green-100 py-16 text-gray-900 text-center">
-        <div className="container mx-auto px-6 max-w-5xl">
+        <div className="mx-auto px-6 max-w-5xl">
           <h2 className="text-4xl font-bold text-green-700">Biz Kimik?</h2>
           <p className="mt-4 text-lg text-gray-700 max-w-3xl mx-auto">
             GreenTech ekoloji texnologiyalar sahəsində innovativ həllər təqdim
@@ -63,10 +63,10 @@ const About = () => {
         </div>
       </section>
 
-      <section className="py-16 bg-green-700 text-white text-center">
+      <section className="py-16 bg-green-100 text-green-700 text-center">
         <div className="container mx-auto px-6 max-w-4xl">
           <h2 className="text-3xl font-bold">Bizimlə Əlaqə</h2>
-          <p className="mt-4 text-lg text-gray-200">
+          <p className="mt-4 text-lg text-gray-900">
             GreenTech-in bir hissəsi olmaq və ekoloji texnologiyalar sahəsində
             bizə qoşulmaq üçün bizimlə əlaqə saxlayın.
           </p>
