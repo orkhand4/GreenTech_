@@ -16,13 +16,13 @@ const Hero = () => {
         <div className="mt-6 flex flex-col md:flex-row items-center justify-center gap-4">
           <Link
             to="/startups"
-            className="bg-green-600 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-lg hover:bg-green-700 transition"
+            className="bg-green-600 text-white px-6 py-3 rounded-lg text-lg font-semibold shadow-lg hover:bg-green-700 transition duration-300"
           >
             Startaplar
           </Link>
           <Link
             to="/learn-more"
-            className="bg-transparent border-2 border-green-600 text-green-600 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-green-600 hover:text-white transition"
+            className="bg-transparent border-2 border-green-600 text-green-600 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-green-600 hover:text-white transition duration-300"
           >
             Daha Çox Öyrən
           </Link>
